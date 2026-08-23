@@ -25,7 +25,7 @@ Cancer Dependency Map.
 .
 ├── src/                  # Model definition, training loop, data loading
 ├── scripts/              # Baseline comparisons and downstream analyses
-└── requirements.txt
+└── environment.yml
 ```
 
 
