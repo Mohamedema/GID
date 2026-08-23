@@ -37,7 +37,7 @@ Requires Python >=3.9, PyTorch, and PyTorch Geometric.
 Training and inference are configured via a single config file:
 
 ```bash
-python src/train.py --config config/default.yaml
+python src/main.py
 ```
 
 ## Data
