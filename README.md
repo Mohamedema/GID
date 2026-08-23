@@ -25,8 +25,6 @@ Cancer Dependency Map.
 .
 ├── src/                  # Model definition, training loop, data loading
 ├── scripts/              # Baseline comparisons and downstream analyses
-├── notebooks/            # Exploratory analysis notebooks
-├── config/               # Training and hyperparameter configuration files
 └── requirements.txt
 ```
 
