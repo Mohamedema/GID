@@ -48,7 +48,4 @@ GID requires:
 - A STRING-derived protein-protein association network over the same
   gene set, used as the fixed graph topology.
 
-The multi-omics data used in the accompanying manuscript is drawn from
-DepMap and the Cell Model Passports; access instructions are provided in
-`data/README.md`.
 
