@@ -6,7 +6,7 @@ multi-omics cancer cell line data.
 ## Overview
 
 GID is a graph convolutional network (GCN) autoencoder that integrates five
-omics layers — transcriptomics, proteomics, DNA methylation, copy number
+omics layers transcriptomics, proteomics, DNA methylation, copy number
 variation, and CRISPR-Cas9 gene essentiality over a shared graph topology
 derived from the STRING protein-protein association network. The model
 encodes each gene's multi-omics profile into a low-dimensional latent
