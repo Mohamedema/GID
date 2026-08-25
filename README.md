@@ -19,7 +19,7 @@ tissue-level average. This repository was used to infer sample specific
 networks for 1,007 cancer cell lines spanning 28 tissue types from the
 Cancer Dependency Map.
 
-https://github.com/Mohamedema/GID/blob/main/adjusted_figure1%20(4320%20x%204016%20px)%20(9).png
+![image_alt]https://github.com/Mohamedema/GID/blob/main/adjusted_figure1%20(4320%20x%204016%20px)%20(9).png
 
 ## Repository structure
 
