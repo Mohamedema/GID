@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "GID: Graph Inferred Deconvolution"
+abstract: "Graph convolutional autoencoder that infers sample-specific protein-protein association networks from multi-omics data."
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Mohamedema/GID"
+keywords:
+  - multi-omics
+  - graph convolutional network
+  - protein-protein association
+  - sample-specific networks
+  - cancer
+authors:
+  - family-names: Emam
+    given-names: Mohamed
+    affiliation: "Department of Biology, Faculty of Sciences, and CIIMAR, University of Porto, Portugal"
+  - family-names: Monteiro
+    given-names: Pedro T.
+    affiliation: "INESC-ID, Instituto Superior Técnico, Universidade de Lisboa, Portugal"
+  - family-names: Gonçalves
+    given-names: Emanuel
+    affiliation: "INESC-ID, Instituto Superior Técnico, Universidade de Lisboa, Portugal"
+  - family-names: Antunes
+    given-names: Agostinho
+    affiliation: "Department of Biology, Faculty of Sciences, and CIIMAR, University of Porto, Portugal"

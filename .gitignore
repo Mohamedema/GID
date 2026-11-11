@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# downloaded inputs and everything the pipeline writes
+data/raw/
+data/depmap/
+data/tcga_brca/
+data/hippie/
+runs/
+results/
+figures/
+*.npy
+*.pt

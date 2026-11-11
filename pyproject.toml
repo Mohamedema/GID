@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gid"
+version = "1.0.0"
+description = "Graph inferred deconvolution of sample-specific protein-protein association networks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Mohamed Emam" },
+    { name = "Pedro T. Monteiro" },
+    { name = "Emanuel Gonçalves" },
+    { name = "Agostinho Antunes" },
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "torch",
+    "torch_geometric",
+    "openpyxl",
+    "matplotlib",
+    "seaborn",
+    "umap-learn",
+]
+
+[project.optional-dependencies]
+cytoscape = ["py4cytoscape"]
+dev = ["pytest", "inmoose"]
+
+[tool.setuptools.packages.find]
+include = ["gid*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning:torch_geometric",
+    "ignore::FutureWarning:torch",
+    "ignore:n_jobs value:UserWarning:umap",
+]

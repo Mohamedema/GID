@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+openpyxl
+matplotlib
+seaborn
+umap-learn
+torch
+torch_geometric

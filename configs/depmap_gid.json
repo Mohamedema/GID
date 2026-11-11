@@ -1,0 +1,12 @@
+{
+  "hidden_dim": 400,
+  "latent_dim": 190,
+  "epochs": 1000,
+  "batch_size": 32,
+  "lr": 0.0006562883581637201,
+  "weight_decay": 0.0005541688853970498,
+  "dropout": 0.1518412589191374,
+  "graph_threshold": 0.7,
+  "cnv_levels": [-2.0, -1.0, 0.0, 1.0, 2.0],
+  "seed": 42
+}
